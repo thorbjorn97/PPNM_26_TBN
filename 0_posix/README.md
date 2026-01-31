@@ -31,11 +31,11 @@ Once the terminal opens, I can optionally verify my environment:
 
 - The `man` command displays the **manual page** for other commands in my POSIX system. It is a built-in way to read documentation directly from the terminal.
 - It can be used to read manuals for any installed command by typing, for instance:
-	- man ls
-	- man cp
-	- man mkdir
+	- `man ls`
+	- `man cp`
+	- `man mkdir`
 - To read the manual for `man` itself, type:
-	- man man
+	- `man man`
 - The manual will open using the default pager (`less`). Scrolling is done with the **arrow keys**.
 - To search inside the manual, press `/` followed by the search term and Enter.
 - To quit the manual and return to the shell, press `q`.
@@ -77,7 +77,7 @@ In my setup (Ubuntu via WSL) and editor (VS Code), the workflow is as follows:
 	cd ~ 			[redirects to my Linux home directory]
 	pwd			[prints working directory]
 3)  In WSL terminal, verify last output:
-	# /home/thorbj 		<--- IMPORTANT
+	"# /home/thorbj" 		<--- IMPORTANT
 4)  In WSL terminal, type:
 	code . 			[launches VSC from the currenct directory]
 5)  In VSC:
